@@ -9,7 +9,7 @@ else
 fi
 
 # backup default config files
-echo "$HOME/.dotfiles/bash/.bashrc" >> $HOME/.bashrc #cp $HOME/.bashrc $HOME/.bashrc.bak
+echo "source $HOME/.dotfiles/bash/.bashrc" >> $HOME/.bashrc #cp $HOME/.bashrc $HOME/.bashrc.bak
 mv $HOME/.gitconfig $HOME/.gitconfig.bak
 # backup default config directory
 mv $HOME/.config/nvim $HOME/.config/nvim.bak
