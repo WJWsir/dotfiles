@@ -33,3 +33,8 @@ else
     $HOME/.tmux/plugins/tpm/scripts/install_plugins.sh
     echo "successfully install tmux plugins."
 fi
+# for bash-git-prompt
+if ! [ -d $HOME/.bash-git-prompt ]; then
+    git clone https://github.com/magicmonty/bash-git-prompt.git $HOME/.bash-git-prompt --depth=1
+    echo "successfuly download bash-git-prompt repo."
+fi
