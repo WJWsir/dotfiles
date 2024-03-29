@@ -19,6 +19,7 @@ echo "successfully backup default config files."
 # create soft link files
 #ln -s $HOME/.dotfiles/bash/.bashrc $HOME/.bashrc
 ln -s $HOME/.dotfiles/git/.gitconfig $HOME/.gitconfig
+ln -s $HOME/.dotfiles/git/.gitignore_global $HOME/.gitignore_global
 ln -s $HOME/.dotfiles/nvim $HOME/.config/nvim
 ln -s $HOME/.dotfiles/tmux $HOME/.config/tmux
 echo "successfully create soft link files."
